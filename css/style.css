@@ -1,0 +1,143 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#logo {
+   
+    background-size: 50px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    z-index: 100;
+    width: 55px;
+    height: 55px;
+}
+
+#navbar{	
+	background-color:coral;
+	color:#fff;
+}
+
+#navbar ul{
+	position: relative;
+	padding:5px;
+	list-style: none;
+}
+
+#navbar li :hover{
+	color: black;
+}
+
+#navbar li{
+	display:inline;
+	padding: 15px;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:45px;
+}
+
+#navbar input{
+	float: right;
+  padding: 2px;
+  border: none;
+  margin-top: -45px;
+  margin-right: 150px;
+  font-size: 17px;
+	
+}
+
+#navbar button{
+	float: right;
+  padding: 2px 10px;
+  margin-top: -45px;
+  margin-right: 60px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#showcase{
+	background-image:url('../images/wheels_big.jpg');
+	background-position:center left;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+	background-size: cover;
+}
+
+.container2{
+	background-image:url('../images/tesla.jpg');
+	background-position:center left;
+	min-height:600px;
+	margin-bottom:30px;
+	text-align: center;
+	background-size: cover;
+}
+
+.container2{
+	background-image:url('../images/tesla.jpg');
+	background-position:center left;
+	min-height:600px;
+	margin-bottom:30px;
+	text-align: center;
+	background-size: cover;
+}
+
+.container2 h1{
+	position: relative;
+	width: 30%;
+	left: 950px;
+
+	top: 140px;
+	color:#fff;
+}
+
+#showcase h1{
+	color:white;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+
